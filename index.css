@@ -1,0 +1,74 @@
+/* Navbar Section */
+
+
+body {
+  background-color: rgb(40, 39, 39);
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  
+}
+.nav_bar {
+  display: flex;
+  justify-content: space-between; /* Aligns left and right items */
+  align-items: center; /* Centers items vertically */
+  padding: 5px 10px; /* Adds padding */
+  background-color: #48474f; /* Background color for the navbar */
+  border: 2px solid #5a5b5c; /* Border color and width */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
+  position: relative; /* Relative positioning for z-index */
+  z-index: 1; /* In front of the border */
+
+  /* background-color: rgb(26, 26, 31); */
+}
+.left {
+  font-size: 24px; /* Font size for the left item */
+  font-weight: bold; /* Bold text */
+}
+
+.right {
+  display: flex; /* Displays right items in a row */
+  gap: 15px; /* Space between nav items */
+}
+
+.nav_bar .nav_items {
+  padding: 16px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.nav_bar .nav_items:hover {
+  border-bottom: 3px solid yellow;
+}
+
+/* .custom-btn {
+  margin-top: 10px;
+  background-color: rgb(1, 25, 7);
+  color: rgb(11, 55, 27);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+} */
+
+
+.custom-button {
+  margin-right: 10px;
+  background-color: rgb(10, 152, 53); /* Primary background color */
+  color: white;           /* Text color */
+  border: none;          /* Remove border */
+  border-radius: 5px;    /* Rounded corners */
+  padding: 10px 20px;    /* Padding for size */
+  font-size: 16px;        /* Font size */
+  cursor: pointer;        /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Transition for hover effect */
+}
+
+.custom-button:hover {
+  background-color: rgb(79, 156, 143); /* Darker background on hover */
+}
